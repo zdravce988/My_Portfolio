@@ -1,0 +1,90 @@
+/**************************************************
+*
+*
+*     MY PORTFOLIO
+*
+*
+***************************************************/
+
+body {
+  background-color: #3f51b5;
+  font-family: Lato, Helvetica, Garamond, serif, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+
+}
+
+/****************************************
+* Heder
+****************************************/
+
+.me {
+  background-color: #45ffb2;
+  text-align: center;
+  padding: 20px;
+}
+
+.pretty  {
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #333333;
+  transition: 1s;
+}
+
+.pretty:hover {
+  transform: rotate(360deg);
+}
+
+.pretty-name {
+  text-transform: uppercase;
+  color: white;
+  /*font-family: Helvetica, Garamond, serif, sans-serif;*/
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #333333;
+}
+
+/****************************************
+* Container
+****************************************/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-container {
+  /*font-family: Lato, Helvetica, Garamond, serif, sans-serif;*/
+  padding: 5px;
+  background-color: white;
+  font-size: 30px;
+  color: #45ffb2;
+  text-align: center;
+  text-shadow: 1px 1px 2px #333333;
+}
+
+/****************************************
+* Skills
+****************************************/
+
+.skills-item {
+  margin-top: 10px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #45ffb2;
+}
